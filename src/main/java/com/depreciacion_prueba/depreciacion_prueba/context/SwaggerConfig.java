@@ -22,7 +22,7 @@ public class SwaggerConfig {
     public Docket api() {
         return new Docket(DocumentationType.SWAGGER_2)
                 .select()
-                .apis(RequestHandlerSelectors.basePackage("com.depreciacion_prueba.controladores"))
+                .apis(RequestHandlerSelectors.basePackage("com.depreciacion_prueba.depreciacion_prueba.controladores"))
                 .paths(PathSelectors.any())
                 .build()
                 .apiInfo(apiInfo());
